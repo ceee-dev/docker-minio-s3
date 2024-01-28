@@ -33,7 +33,7 @@ sudo apt install docker-compose
 ## Clone the repository to your docker host
 
 ```
-git clone https://github.com/ceee-dev/docker-mysql-dev.git
+git clone git@github.com:ceee-dev/docker-minio-s3.git
 ```
 
 ##  Change the directory 
@@ -48,7 +48,7 @@ cd docker-mysql-dev
 bash create-env.sh 
 ```
 
-## Deploy mysql using `docker-compose` command
+## Deploy minio storage using `docker-compose` command
 
 ```
 docker-compose up -d
