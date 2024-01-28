@@ -53,7 +53,7 @@ bash create-env.sh
 ```
 docker-compose up -d
 ```
-## Observing mysql docker logs 
+## Observing minio docker logs 
 
 ```bash
 docker-compose  logs -f
